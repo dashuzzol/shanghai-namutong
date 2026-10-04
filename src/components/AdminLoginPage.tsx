@@ -233,12 +233,7 @@ export const AdminLoginPage: React.FC<AdminLoginPageProps> = ({
 
         {/* Security & Default Credentials Notice */}
         <div className="mt-6 pt-5 border-t border-slate-800 text-center">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-950/60 border border-slate-800 text-[11px] text-slate-400 font-mono">
-            <span>Server Default:</span>
-            <span className="text-emerald-400 font-semibold">admin</span>
-            <span className="text-slate-600">/</span>
-            <span className="text-emerald-400 font-semibold">admin123</span>
-          </div>
+          
           <p className="text-[11px] text-slate-400 mt-2">
             Protected area. All actions are logged and authenticated server-side.
           </p>
