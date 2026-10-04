@@ -1,0 +1,249 @@
+{
+  "settings": {
+    "storeName": "Shanghai Namutong International Trade Co. Ltd",
+    "storeLogo": "/shanghai_namutong_logo.svg",
+    "phoneNumber": "+880 1711-234567",
+    "whatsAppNumber": "+8801711234567",
+    "email": "info@shanghainamutong.com",
+    "facebookPage": "https://facebook.com/shanghainamutong",
+    "storeAddress": "Level 7, Suite 702, Trade Tower, Dilkusha C/A, Dhaka-1000, Bangladesh",
+    "shortDescription": "Premier Bangladesh-based wholesale importer & distributor of electronics, clothing, footwear, toys, and home lifestyle goods directly from Shanghai & China manufacturers.",
+    "bkashNumber": "01711-234567",
+    "nagadNumber": "01711-234567",
+    "rocketNumber": "01711-234567-8"
+  },
+  "categories": [
+    {
+      "id": "cat-mobile-electronics",
+      "name": "Mobile & Electronics",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&auto=format&fit=crop&q=80",
+      "isActive": true
+    },
+    {
+      "id": "cat-clothing",
+      "name": "Clothing",
+      "image": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=400&auto=format&fit=crop&q=80",
+      "isActive": true
+    },
+    {
+      "id": "cat-shoes",
+      "name": "Shoes",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&auto=format&fit=crop&q=80",
+      "isActive": true
+    },
+    {
+      "id": "cat-kids-toys",
+      "name": "Kids & Toys",
+      "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=400&auto=format&fit=crop&q=80",
+      "isActive": true
+    },
+    {
+      "id": "cat-home-kitchen",
+      "name": "Home & Kitchen",
+      "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=400&auto=format&fit=crop&q=80",
+      "isActive": true
+    },
+    {
+      "id": "cat-other-products",
+      "name": "Other Products",
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400&auto=format&fit=crop&q=80",
+      "isActive": true
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-tws-pro",
+      "name": "TWS Wireless Bluetooth 5.3 Earbuds with LED Power Display",
+      "category": "Mobile & Electronics",
+      "price": 650,
+      "originalPrice": 950,
+      "discountPrice": 650,
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Wholesale lot direct from Shenzhen technology zone. Bluetooth 5.3 low-latency chip, dual-mic environmental noise cancellation (ENC), 300mAh charging case with digital LED percentage display. Compatible with Android & iOS.",
+      "stock": 500,
+      "minOrderQuantity": 50,
+      "isFeatured": true,
+      "isNew": true
+    },
+    {
+      "id": "prod-smartwatch-ultra",
+      "name": "Smart Watch Ultra Series 9 HD AMOLED Full Touch Screen with Bluetooth Call",
+      "category": "Mobile & Electronics",
+      "price": 1350,
+      "originalPrice": 1950,
+      "discountPrice": 1350,
+      "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Titanium-alloy case, 2.02-inch crisp HD display, wireless magnetic charging, real-time heart rate sensor, multi-sports tracking, and Bengali notification font support.",
+      "stock": 850,
+      "minOrderQuantity": 100,
+      "isFeatured": true,
+      "isNew": true
+    },
+    {
+      "id": "prod-charging-dock-3in1",
+      "name": "3-in-1 Foldable Magnetic Fast Wireless Charging Station 15W",
+      "category": "Mobile & Electronics",
+      "price": 980,
+      "originalPrice": 1450,
+      "image": "https://images.unsplash.com/photo-1622445262464-84b1456045b6?w=800&auto=format&fit=crop&q=80",
+      "description": "Foldable travel-friendly wireless charging dock. Powers phone (15W), smartwatch (3W), and wireless earbuds (5W) concurrently with smart overcharge safety protection.",
+      "stock": 300,
+      "minOrderQuantity": 20,
+      "isFeatured": false,
+      "isNew": true
+    },
+    {
+      "id": "prod-portable-fan-usb",
+      "name": "Rechargeable 4000mAh Desk & Clip-on Mini Cooling Fan",
+      "category": "Mobile & Electronics",
+      "price": 680,
+      "originalPrice": 950,
+      "image": "https://images.unsplash.com/photo-1618249877395-5d9c2273629e?w=800&auto=format&fit=crop&q=80",
+      "description": "Wholesale high-demand summer item in Bangladesh. 4000mAh battery providing up to 8 hours continuous breeze, whisper-quiet brushless copper motor, 360-degree rotation.",
+      "stock": 150,
+      "minOrderQuantity": 6,
+      "isFeatured": true,
+      "isNew": false
+    },
+    {
+      "id": "prod-polo-shirt",
+      "name": "Men's Solid Color Pique Cotton Export Polo Shirt (Pack Lot)",
+      "category": "Clothing",
+      "price": 420,
+      "originalPrice": 650,
+      "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=800&auto=format&fit=crop&q=80",
+      "description": "220 GSM combed breathable pique cotton. Color fastness guaranteed, export quality rib collar and cuffs. Ideal for wholesale retail and corporate bulk branding.",
+      "stock": 200,
+      "minOrderQuantity": 10,
+      "isFeatured": true,
+      "isNew": true
+    },
+    {
+      "id": "prod-graphic-tee",
+      "name": "Heavyweight 240 GSM Unisex Oversized Streetwear Graphic T-Shirt",
+      "category": "Clothing",
+      "price": 360,
+      "originalPrice": 550,
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800&auto=format&fit=crop&q=80",
+      "description": "Drop-shoulder relaxed streetwear cut made from 100% premium combed ring-spun cotton. High-definition screen printed graphic that withstands repeated washing.",
+      "stock": 180,
+      "minOrderQuantity": 10,
+      "isFeatured": false,
+      "isNew": true
+    },
+    {
+      "id": "prod-sneakers-breathable",
+      "name": "Ultra-Lightweight Breathable Mesh Casual Walking Sneakers",
+      "category": "Shoes",
+      "price": 780,
+      "originalPrice": 1250,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&auto=format&fit=crop&q=80",
+      "description": "Flyknit breathable upper with ultra-cushioned EVA shock-absorbing outsole. Designed for high durability, daily walking, and gym training. Standard wholesale sizing (40-44).",
+      "stock": 90,
+      "minOrderQuantity": 6,
+      "isFeatured": true,
+      "isNew": true
+    },
+    {
+      "id": "prod-slipon-loafers",
+      "name": "Men's Soft Genuine Leather Casual Slip-on Driving Loafers",
+      "category": "Shoes",
+      "price": 1100,
+      "originalPrice": 1700,
+      "image": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800&auto=format&fit=crop&q=80",
+      "description": "Handcrafted cowhide upper with flexible non-slip rubber grip sole. Ergonomic insole providing day-long comfort for formal and casual occasions.",
+      "stock": 45,
+      "minOrderQuantity": 4,
+      "isFeatured": false,
+      "isNew": false
+    },
+    {
+      "id": "prod-remote-car",
+      "name": "High-Speed 4WD Off-Road Monster RC Rock Crawler Toy Car",
+      "category": "Kids & Toys",
+      "price": 950,
+      "originalPrice": 1500,
+      "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=800&auto=format&fit=crop&q=80",
+      "description": "Equipped with shock absorption suspension, 2.4GHz anti-interference controller, heavy-duty rubber tires, and rechargeable lithium battery pack. Climbing angle up to 45 degrees.",
+      "stock": 60,
+      "minOrderQuantity": 4,
+      "isFeatured": true,
+      "isNew": true
+    },
+    {
+      "id": "prod-educational-tablet",
+      "name": "Kids 8.5-inch LCD Writing Drawing Tablet Board with Erase Button",
+      "category": "Kids & Toys",
+      "price": 190,
+      "originalPrice": 350,
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&auto=format&fit=crop&q=80",
+      "description": "Eye-friendly non-radiative pressure-sensitive LCD screen. Children can write, draw, and erase with one click. Ideal for Montessori learning, school notes, and paperless doodling.",
+      "stock": 250,
+      "minOrderQuantity": 12,
+      "isFeatured": false,
+      "isNew": true
+    },
+    {
+      "id": "prod-kitchen-chopper",
+      "name": "Stainless Steel Electric High-Power Meat & Vegetable Food Chopper 2L",
+      "category": "Home & Kitchen",
+      "price": 1150,
+      "originalPrice": 1800,
+      "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=800&auto=format&fit=crop&q=80",
+      "description": "Heavy duty 300W pure copper motor with 4-blade bi-level S-shaped blades and food-grade 304 stainless steel bowl. Chops meat, vegetables, garlic, and nuts in 6 seconds.",
+      "stock": 70,
+      "minOrderQuantity": 4,
+      "isFeatured": true,
+      "isNew": true
+    },
+    {
+      "id": "prod-knife-set",
+      "name": "Professional 6-Piece Non-Stick Textured Kitchen Chef Knife Set with Box",
+      "category": "Home & Kitchen",
+      "price": 750,
+      "originalPrice": 1200,
+      "image": "https://images.unsplash.com/photo-1593618998160-e34014e67546?w=800&auto=format&fit=crop&q=80",
+      "description": "High-carbon stainless steel blades with anti-rust corrugated black coating. Includes chef knife, bread knife, utility knife, paring knife, kitchen shears, and ceramic peeler.",
+      "stock": 80,
+      "minOrderQuantity": 5,
+      "isFeatured": false,
+      "isNew": false
+    },
+    {
+      "id": "prod-luggage-bag",
+      "name": "Waterproof Expandable Multi-Compartment Travel Duffel & Gym Bag",
+      "category": "Other Products",
+      "price": 580,
+      "originalPrice": 950,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&auto=format&fit=crop&q=80",
+      "description": "High density Oxford fabric with separate wet/dry pocket and dedicated shoe compartment. Fixes securely onto luggage trolley handles. Wholesale favorite.",
+      "stock": 110,
+      "minOrderQuantity": 6,
+      "isFeatured": false,
+      "isNew": true
+    },
+    {
+      "id": "prod-solar-wall-light",
+      "name": "Outdoor Solar Powered 100-LED Motion Sensor Security Wall Light",
+      "category": "Other Products",
+      "price": 290,
+      "originalPrice": 480,
+      "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=80",
+      "description": "IP65 waterproof solar lamp with 270-degree wide angle illumination and PIR motion detector. Turns on automatically upon sensing movement up to 5 meters.",
+      "stock": 160,
+      "minOrderQuantity": 10,
+      "isFeatured": true,
+      "isNew": true
+    }
+  ],
+  "orders": []
+}

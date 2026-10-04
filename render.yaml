@@ -1,0 +1,27 @@
+# Render Blueprint. Docs: https://render.com/docs/blueprint-spec
+# Deploy link: https://render.com/deploy?repo=https://github.com/dashuzzol/shanghai-namutong
+services:
+  - type: web
+    name: shanghai-namutong
+    runtime: node
+    plan: free
+    region: singapore
+    # NODE_ENV=production makes npm skip dev packages, but the build needs them.
+    buildCommand: npm install --include=dev && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeployTrigger: commit
+    envVars:
+      - key: NODE_ENV
+        value: production
+      # MongoDB Atlas connection link. Entered by hand in Render, never stored in this repo.
+      - key: MONGODB_URI
+        sync: false
+      - key: ADMIN_USERNAME
+        value: admin
+      # Choose a strong password in Render. Do not use the sample one from .env.example.
+      - key: ADMIN_PASSWORD
+        sync: false
+      # Signs admin login tokens.
+      - key: SESSION_SECRET
+        generateValue: true

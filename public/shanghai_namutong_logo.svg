@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#064e3b" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <filter id="subtleShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Left Emblem Group -->
+  <g transform="translate(10, 10)">
+    <!-- Outer Shield / Hexagonal Container -->
+    <rect x="0" y="0" width="100" height="100" rx="20" fill="url(#primaryGrad)" filter="url(#subtleShadow)" />
+    
+    <!-- Stylized Maritime / Trade Globe Rings -->
+    <circle cx="50" cy="50" r="36" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2" />
+    <path d="M 22 50 C 30 32, 70 32, 78 50 C 70 68, 30 68, 22 50 Z" fill="none" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1.8" />
+    
+    <!-- Stylized 'N' & 'M' / Trade Vessel Hull in Gold & White -->
+    <!-- Ship bow & Cargo Container lines -->
+    <path d="M 28 64 L 50 78 L 72 64 L 64 64 L 50 73 L 36 64 Z" fill="url(#goldGrad)" />
+    <!-- Dynamic Sails / Interlocking Geometric Trade Waves -->
+    <path d="M 32 60 L 50 24 L 50 60 Z" fill="#ffffff" />
+    <path d="M 54 32 L 68 60 L 54 60 Z" fill="url(#goldGrad)" />
+    <!-- Center Trade Star / Compass Pivot -->
+    <polygon points="50,42 52,48 58,50 52,52 50,58 48,52 42,50 48,48" fill="#ffffff" />
+  </g>
+
+  <!-- Typography Group -->
+  <g transform="translate(126, 22)">
+    <!-- English Primary Brand Name -->
+    <text x="0" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" font-weight="900" fill="#0f172a" letter-spacing="-0.3">
+      SHANGHAI NAMUTONG
+    </text>
+
+    <!-- Subtitle: International Trade Co. Ltd -->
+    <text x="0" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#047857" letter-spacing="1.8">
+      INTERNATIONAL TRADE CO. LTD
+    </text>
+
+    <!-- Chinese Subtext & Trade Tagline -->
+    <g transform="translate(0, 75)">
+      <rect x="0" y="-12" width="132" height="18" rx="4" fill="#047857" fill-opacity="0.1" />
+      <text x="6" y="1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10.5" font-weight="700" fill="#065f46" letter-spacing="1">
+        上海南木通国际贸易
+      </text>
+
+      <text x="144" y="0.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#64748b" letter-spacing="0.5">
+        DIRECT CHINA WHOLESALE &amp; IMPORT
+      </text>
+    </g>
+  </g>
+</svg>

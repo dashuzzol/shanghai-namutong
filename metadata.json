@@ -1,0 +1,6 @@
+{
+  "name": "Shanghai Namutong International Trade Co. Ltd",
+  "description": "Bangladesh-based wholesale and direct import platform for electronics, clothing, shoes, toys, and kitchenware.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
